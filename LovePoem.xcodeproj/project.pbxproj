@@ -300,6 +300,7 @@
 				921EF9F11E99CC0700F82F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
