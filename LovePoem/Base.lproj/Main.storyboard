@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--錦瑟-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LovePoem" customModuleProvider="target" sceneMemberID="viewController">
@@ -48,12 +48,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="錦瑟" id="EDw-Dz-ZoD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3116" y="-794"/>
         </scene>
-        <!--View Controller-->
+        <!--詩人-->
         <scene sceneID="qxH-TW-38X">
             <objects>
                 <viewController id="4Xk-D0-JN6" sceneMemberID="viewController">
@@ -123,13 +124,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KaQ-M3-1p1"/>
+                    <navigationItem key="navigationItem" title="詩人" id="KaQ-M3-1p1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BAu-at-guB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1271.2" y="-620.23988005997012"/>
         </scene>
-        <!--View Controller-->
+        <!--李商隱-->
         <scene sceneID="obD-Qn-m7D">
             <objects>
                 <viewController id="CCm-5J-u7F" sceneMemberID="viewController">
@@ -178,12 +179,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="李商隱" id="Bho-kO-3RW">
+                        <barButtonItem key="rightBarButtonItem" image="earth-america-7" id="sSS-PZ-MgO">
+                            <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sut-ga-j7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2140" y="-620.23988005997012"/>
         </scene>
-        <!--View Controller-->
+        <!--想回家-->
         <scene sceneID="yg6-co-QIv">
             <objects>
                 <viewController id="qec-fI-bfq" sceneMemberID="viewController">
@@ -216,6 +222,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="想回家" id="TE0-Uj-3AL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EmB-4n-hjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -246,5 +253,6 @@
         <image name="background3" width="750" height="1334"/>
         <image name="button1" width="295" height="294"/>
         <image name="button2" width="656" height="118"/>
+        <image name="earth-america-7" width="30" height="30"/>
     </resources>
 </document>
